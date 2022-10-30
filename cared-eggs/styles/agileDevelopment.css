@@ -1,0 +1,721 @@
+#upper{
+    width: 100%;
+    height: 550px;
+    padding-top: 55px;
+    background: linear-gradient(to bottom, #f3f6fa, #fdf9f9);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#upper>div{
+    height: 100%;
+    width: 50%;
+    margin-inline: auto;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+#upper>div>p:first-child{
+    padding: 5px 10px;
+    background-color: #ff6d59;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+}
+
+#upper>div>p:first-child:before{
+    content: "✔";
+    color: #bee8ff;
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+#upper>div>h1:nth-child(2){
+    letter-spacing: 1px;
+    font-weight: 700;
+    line-height: 48px;
+    width: 75%;
+    color: #020202;
+}
+
+#upper>div>p:nth-child(3){
+    width: 110%;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+#upper>div>div:nth-child(4){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+}
+
+#upper>div>div:nth-child(4)>div:first-child{
+    width: 90%;
+    background-color: #edeef2;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+#upper>div>div:nth-child(4)>div:first-child>input{
+    font-size: 18px;
+    color: gray;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+
+#upper>div>div:nth-child(4)>div:first-child>button{
+    background-color: #00baab;
+    font-size: 18px;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+}
+
+#upper>div>div:nth-child(4)>div:first-child>button:hover{
+    cursor: pointer;
+    background-color: #009e91;
+}
+
+#upper>div>div:nth-child(4)>a:last-child{
+    border: 1px soild blue;
+    padding: 15px 15px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#upper>div>div:nth-child(4)>a:last-child>img{
+    width: 75%;
+}
+
+
+#upper>div>p:last-child{
+    color: gray;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: -10px;
+}
+
+
+/*======================= Facilitate ideas part =======================*/
+
+
+#facilitate_ideas {
+    width: 85%;
+    margin: 200px auto 100px;
+    border-radius: 20px;
+}
+
+#facilitate_ideas>div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to right, #fbeaf8, #ebfaff);
+    padding-top: 50px;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: 100px;
+}
+
+#facilitate_ideas>div:first-child>div:first-child {
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+#facilitate_ideas>div:first-child>div:first-child>span {
+    padding-bottom: 10px;
+}
+
+#facilitate_ideas>div:first-child>div:first-child>span:nth-of-type(odd) {
+    cursor: pointer;
+}
+
+#facilitate_ideas>div:first-child>div:first-child>span:nth-of-type(even) {
+    font-size: 10px;
+}
+
+
+#facilitate_ideas>div:first-child>div:first-child>span {
+    color: gray;
+}
+
+#facilitate_ideas>div:first-child>h1+p {
+    margin: 20px 0px 0px;
+    width: 46%;
+    text-align: center;
+    line-height: 24px;
+    font-size: 17px;
+}
+
+#facilitate_ideas>div:first-child>img {
+    margin-top: 40px;
+    width: 50%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#facilitate_ideas>div:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 0px 0px 20px 20px;
+    padding: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#facilitate_ideas>div:last-child:hover {
+    color: #00baab;
+}
+
+#facilitate_ideas>div:last-child>img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+
+
+#facilitate_ideas+div>hr {
+    margin: 60px auto 0px;
+    rotate: 90deg;
+    width: 40px;
+}
+
+#facilitate_ideas+div>hr+p {
+    margin: 50px 0px;
+    color: #a1a3be;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+
+/*========================= Images Part =========================*/
+
+#facilitate_ideas+div {
+    padding-top: 100px;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: #a1a3be;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+#facilitate_ideas+div>div {
+    margin: 70px auto;
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#facilitate_ideas+div>div>img {
+    width: 10%;
+}
+
+/*===================== do more with discussions =====================*/
+#discussions{
+    width: 80%;
+    margin-inline: auto;
+}
+
+#discussions>div:first-child{
+    height: 60px;
+    width: 60px;
+    margin-inline: auto;
+    background: linear-gradient(to right, #fa5843, #ff6d59);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#discussions>div:first-child::after{
+    content: "✔";
+    font-size: 22px;
+    color: white;
+}
+
+#discussions>h1{
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 45px;
+    margin: 25px 0px;
+}
+
+#discussions>p{
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: gray;
+    margin-inline: auto;
+    display: block;
+    padding: 0% 23%;
+    margin-bottom: 50px;
+}
+
+#discussions>div:nth-child(4),
+#discussions>div:nth-child(6){
+    display: grid;
+    grid-template-columns: 40% 56%;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+#discussions>div:nth-child(4)>div:first-child,
+#discussions>div:nth-child(6)>div:first-child{
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#discussions>div:nth-child(4)>div:first-child>h1,
+#discussions>div:nth-child(6)>div:first-child>h1{
+    letter-spacing: 1px;
+    margin: 15px 0px;
+}
+
+
+#discussions>div:nth-child(4)>div:first-child>p,
+#discussions>div:nth-child(6)>div:first-child>p{
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+#discussions>div:nth-child(4)>div:last-child,
+#discussions>div:nth-child(6)>div:last-child{
+    background-image: url("https://niftypm.com/_nuxt/img/cloud-decoration.1932f4a.png");
+    background-size: cover;
+    background-position: center;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#discussions>div:nth-child(4)>div:last-child>img,
+#discussions>div:nth-child(6)>div:last-child>img{
+    width: 95%;
+}
+
+#discussions>div:nth-child(5),
+#discussions>div:nth-child(7){
+    display: grid;
+    grid-template-columns: 56% 40%;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+#discussions>div:nth-child(5)>div:first-child,
+#discussions>div:nth-child(7)>div:first-child{
+    background-image: url("https://niftypm.com/_nuxt/img/cloud-decoration.1932f4a.png");
+    background-size: cover;
+    background-position: center;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#discussions>div:nth-child(5)>div:first-child>img,
+#discussions>div:nth-child(7)>div:first-child>img{
+    width: 95%;
+}
+
+#discussions>div:nth-child(5)>div:last-child,
+#discussions>div:nth-child(7)>div:last-child{
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#discussions>div:nth-child(5)>div:last-child>h1,
+#discussions>div:nth-child(7)>div:last-child>h1{
+    letter-spacing: 1px;
+    margin: 15px 0px;
+}
+
+
+#discussions>div:nth-child(5)>div:last-child>p,
+#discussions>div:nth-child(7)>div:last-child>p{
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+
+
+
+#discussions+div{
+    margin: 50px auto;
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#discussions+div>p{
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+#discussions+div>img{
+    width: 130px;
+}
+
+#discussions+div>button{
+    font-size: 17px;
+    color: white;
+    background-color: #009e91;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+#discussions+div>button:hover{
+    background-color: #00857a;
+}
+
+
+
+#right-carousal+div>hr {
+    margin: 60px auto 0px;
+    rotate: 90deg;
+    width: 40px;
+    /* background: linear-gradient(to right, rgb(208, 18, 18), white); */
+}
+
+#right-carousal+div>hr+p {
+    margin: 50px 0px;
+    color: #a1a3be;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+
+
+/*======================= Powerful Unification =======================*/
+#unification {
+    width: 85%;
+    height: 700px;
+    margin: 100px auto 100px;
+    border-radius: 15px;
+    background: linear-gradient(to right, #fbe8f8, #e8f9ff);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+#unification>div:first-child {
+    width: 45%;
+    padding: 0px 20px;
+}
+
+#unification>div:first-child>h1 {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+#unification>div:first-child>p {
+    line-height: 28px;
+    margin: 10px 0px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+#unification table {
+    margin-top: 40px;
+    width: 400px;
+}
+
+#unification table td:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00baab;
+    font-size: 10px;
+}
+
+#unification table+div {
+    position: relative;
+    top: -115px;
+    left: 48px;
+    height: 110px;
+    width: 410px;
+    letter-spacing: 1px;
+    color: black;
+    line-height: 23px;
+}
+
+#unification table+div>a {
+    display: block;
+    margin-top: 18px;
+    color: #00baab;
+    text-decoration: none;
+}
+
+#unification table+div>a:hover {
+    text-decoration: underline;
+}
+
+#unification table tr:nth-child(10)>td:first-child>span {
+    border: 1px solid #00baab;
+}
+
+#unification table tr:nth-child(10)>td:last-child {
+    color: #00baab;
+}
+
+.bb {
+    height: 23px;
+    width: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00baab;
+    font-weight: bolder;
+    border-radius: 50%;
+    font-size: 28px;
+    padding-bottom: 4px;
+}
+
+.h {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#unification>div:last-child {
+    width: 65%;
+    position: relative;
+}
+
+#unification_circle {
+    margin-left: 80px;
+    height: 570px;
+    width: 570px;
+    border: 2px dashed #00baab;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#unification_circle_1 {
+    height: 430px;
+    width: 430px;
+    /* border: 2px solid blue; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 -8px 32px rgb(0 0 0 / 8%);
+    position: relative;
+}
+
+#unification_circle_2 {
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid blue; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 -8px 32px rgb(0 0 0 / 8%);
+}
+
+#unification_circle_3 {
+    height: 200px;
+    width: 200px;
+    border: 1px dashed #00baab;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 -8px 32px rgb(0 0 0 / 8%);
+    padding: 50px;
+}
+
+.profile {
+    box-shadow: 0 -8px 32px rgb(0 0 0 / 8%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 28px;
+    /* width: 115px; */
+    position: absolute;
+    padding: 6px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.profile>p {
+    margin: 6px;
+}
+
+.profile>img {
+    width: 22px;
+}
+
+#unification_circle_1>div:nth-child(1) {
+    top: 45%;
+    left: -3%;
+}
+
+#unification_circle_1>div:nth-child(2) {
+    top: 10%;
+    left: 35%;
+}
+
+#unification_circle_1>div:nth-child(3) {
+    top: 41%;
+    left: 76%;
+}
+
+#unification_circle_1>div:nth-child(4) {
+    top: 77%;
+    left: 72%;
+}
+
+#unification_circle_1>div:nth-child(5) {
+    top: 85%;
+    left: 16%;
+}
+
+#unification_circle_3>div>img {
+    width: 100%;
+}
+
+
+
+
+#rotating-circle {
+    position: absolute;
+    top: 0;
+    left: 11%;
+    height: 570px;
+    width: 570px;
+    border-radius: 50%;
+    animation: rotation 39s linear infinite;
+}
+
+@keyframes rotation {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.rotating-icons {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dce0e6;
+    border-radius: 50%;
+    padding: 16px;
+}
+
+.rotating-icons>img {
+    width: 100%;
+    animation: reverseRotate 39s linear infinite;
+}
+
+@keyframes reverseRotate {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+.rotating-icons:nth-child(1) {
+    top: 9%;
+    left: 10%;
+}
+
+.rotating-icons:nth-child(2) {
+    top: -4%;
+    left: 32%;
+}
+
+.rotating-icons:nth-child(3) {
+    top: -3%;
+    left: 59%;
+}
+
+.rotating-icons:nth-child(4) {
+    top: 11%;
+    right: 8%;
+}
+
+.rotating-icons:nth-child(5) {
+    top: 34%;
+    right: -4%;
+}
+
+.rotating-icons:nth-child(6) {
+    bottom: 27%;
+    right: -2%;
+}
+
+.rotating-icons:nth-child(7) {
+    bottom: 6%;
+    right: 14%;
+}
+
+.rotating-icons:nth-child(8) {
+    bottom: -4%;
+    right: 40%;
+}
+
+.rotating-icons:nth-child(9) {
+    bottom: 1%;
+    left: 20%;
+}
+
+.rotating-icons:nth-child(10) {
+    bottom: 18%;
+    left: 3%;
+}
+
+.rotating-icons:nth-child(11) {
+    bottom: 39%;
+    left: -5%;
+}
+
+.rotating-icons:nth-child(12) {
+    bottom: 61%;
+    left: -3%;
+}
